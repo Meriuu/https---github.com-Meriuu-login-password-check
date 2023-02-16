@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+}
+
+body {
+  background-color: #2f9cfb;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sign-up {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: white;
+  border-radius: 4px;
+  padding: 20px;
+}
+.sign-up .form {
+  display: flex;
+  flex-direction: column;
+}
+.sign-up .form span {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.sign-up .form .starting {
+  border-bottom: 1px solid rgb(137, 137, 137);
+}
+.sign-up .form .starting h1 {
+  margin-bottom: 10px;
+}
+.sign-up .form .starting p {
+  color: rgb(137, 137, 137);
+  margin-bottom: 20px;
+}
+.sign-up .form .name-inputs .first-name {
+  margin-right: 10px;
+}
+.sign-up .form input {
+  margin-top: 20px;
+  height: 50px;
+  background-color: rgb(238, 237, 237);
+  border: none;
+  border-radius: 4px;
+}
+.sign-up .form input::-moz-placeholder {
+  text-align: left;
+  color: rgb(54, 52, 52);
+  font-size: 15px;
+  padding-left: 10px;
+}
+.sign-up .form input::placeholder {
+  text-align: left;
+  color: rgb(54, 52, 52);
+  font-size: 15px;
+  padding-left: 10px;
+}
+.sign-up .form .checkbox {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+}
+.sign-up .form .checkbox .accept {
+  height: auto;
+}
+.sign-up .form .checkbox .accept-p {
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.sign-up .form button {
+  margin-top: 20px;
+  height: 35px;
+  color: white;
+  background-color: #2f9cfb;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */
